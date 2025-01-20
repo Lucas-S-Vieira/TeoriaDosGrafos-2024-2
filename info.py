@@ -1,5 +1,5 @@
 import listaAdjacencias
-import matrizAdjacencias
+#import matrizAdjacencias
 
 # retorna a densidade do grafo:
 def densidade(grafo):

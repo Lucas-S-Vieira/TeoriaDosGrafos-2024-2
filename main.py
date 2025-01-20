@@ -1,4 +1,4 @@
-import matrizAdjacencias
+#import matrizAdjacencias
 import listaAdjacencias
 import info
 import busca
@@ -46,3 +46,7 @@ if __name__ == "__main__":
         for (j, p) in subgrafo.vizinhos(i):
             print(vertices[j], end=" ")
         print()
+        
+buscar = busca.bfs(grafo, 0)
+        
+print (buscar)
