@@ -32,16 +32,27 @@ def dfsIterativo(grafo, s):
 
 # BFS (Aula 07 - slide 15):
 def bfs(grafo, s, e):
-    R = []
+    pai = [-1] * grafo.ordem()
     visitado = [False] * grafo.ordem()
     fila = []
+    
     fila.append(s)
     visitado[s] = True
+    
     while fila:
         u = fila.pop(0)
-        R.append(u)
-        for (v, p) in grafo.vizinhos(u):
+        
+        if u == e:
+            caminho = []
+            while u != -1:
+                caminho.append((u))
+                u = pai[u]
+            return caminho[::-1]
+        
+        for (v, _) in grafo.vizinhos(u):
             if not visitado[v]:
                 visitado[v] = True
                 fila.append(v)
-    return R
+                pai[v] = u
+                
+    return None
