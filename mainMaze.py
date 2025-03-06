@@ -21,13 +21,12 @@ def leituraMaze(arquivo):
         for j in range(colunas):
             if matriz[i][j] != '#':
                 for di, dj in direcoes:
-                    ni, nj = i+di, j+dj
-                    if nj > 0 and ni > 0:
-                        if ni < linhas and nj < colunas:
-                            if matriz[ni][nj] != '#':
-                                pai = i*colunas + j
-                                filho = ni*colunas +nj
-                                grafo.addAresta(pai,filho)
+                    ni, nj = i + di, j + dj
+                    if 0 <= ni < linhas and 0 <= nj < colunas:
+                        if matriz[ni][nj] != '#':
+                            pai = i * colunas + j
+                            filho = ni * colunas + nj
+                            grafo.addAresta(pai, filho)
                 if matriz[i][j] == 'S':
                     inicio = i*colunas +j
                 elif matriz[i][j] == 'E':
@@ -40,8 +39,13 @@ if __name__ == "__main__":
         sys.exit(1)
 
     # sys.argv[1] contem o nome do arquivo a ser lido
+    
+    import time as time
+    start = time.time()
     grafo, inicio, fim = leituraMaze(sys.argv[1])
     caminho = busca.bfs(grafo, inicio, fim) 
-    grafo.printGrafo()
+    
+    #grafo.printGrafo()
     print (caminho)
+    print(time.time() - start)
 
