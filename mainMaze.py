@@ -31,7 +31,12 @@ def leituraMaze(arquivo):
                     inicio = i*colunas +j
                 elif matriz[i][j] == 'E':
                     fim = i*colunas +j
-    return grafo, inicio, fim
+    return grafo, inicio, fim, colunas 
+
+def coordenada(indice, colunas):
+    i = indice // colunas
+    j = indice % colunas
+    return (i, j)
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
@@ -42,10 +47,10 @@ if __name__ == "__main__":
     
     import time as time
     start = time.time()
-    grafo, inicio, fim = leituraMaze(sys.argv[1])
+    grafo, inicio, fim, colunas = leituraMaze(sys.argv[1])
     caminho = busca.bfs(grafo, inicio, fim) 
     
-    #grafo.printGrafo()
-    print (caminho)
-    print(time.time() - start)
-
+    coordenadas = [coordenada(indice, colunas) for indice in caminho]
+    
+    print("Caminho:", coordenadas)
+    print("Tempo de execução:", time.time() - start)
