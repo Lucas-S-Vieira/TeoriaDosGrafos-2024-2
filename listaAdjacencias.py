@@ -40,3 +40,9 @@ class ListaAdjacencias:
     def printGrafo(self):
         for i in range(self.numVertices):
             print(f"{i} -> {self.lista[i]}")
+            
+    def pesoAresta(self, v1, v2):
+        for (destino, peso) in self.lista[v1]:
+            if destino == v2:
+                return peso
+        return None
