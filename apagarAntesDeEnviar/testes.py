@@ -1,2 +1,1 @@
-teste = [None]*5
-print (teste)
+print (float('inf'))

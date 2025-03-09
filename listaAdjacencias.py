@@ -1,3 +1,4 @@
+import random
 # Representacao computacional de um grafo por meio de lista de adjacencias:
 class ListaAdjacencias:
     # inicializa o grafo:    
@@ -46,3 +47,11 @@ class ListaAdjacencias:
             if destino == v2:
                 return peso
         return None
+    
+    def gerarOrigemDestino(self):
+        num_vertices = self.ordem()
+        v1 = random.randint(0, num_vertices - 1)
+        v2 = random.randint(0, num_vertices - 1)
+        while v2 == v1:
+            v2 = random.randint(0, num_vertices - 1)
+        return v1, v2

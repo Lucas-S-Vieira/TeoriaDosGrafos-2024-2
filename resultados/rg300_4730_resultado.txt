@@ -1,0 +1,200 @@
+Rodada 1
+Origem: 224 Destino: 296
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.003967761993408203
+Caminho: [224, 34, 114, 231, 296]
+Peso: 6
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.3829762935638428
+Caminho: [224, 34, 114, 231, 296]
+Peso: 6
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 4.133698463439941
+Caminho: [224, 34, 114, 231, 296]
+Peso: 7
+
+
+Rodada 2
+Origem: 104 Destino: 226
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.003989458084106445
+Caminho: [104, 2, 298, 226]
+Peso: 7
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.3695352077484131
+Caminho: [104, 2, 298, 226]
+Peso: 7
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 4.0652923583984375
+Caminho: [104, 0, 15, 45, 226]
+Peso: 13
+
+
+Rodada 3
+Origem: 43 Destino: 66
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.003961324691772461
+Caminho: [43, 128, 214, 46, 42, 66]
+Peso: 12
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.3579850196838379
+Caminho: [43, 128, 214, 46, 42, 66]
+Peso: 12
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 4.135003089904785
+Caminho: [43, 128, 214, 46, 42, 66]
+Peso: 12
+
+
+Rodada 4
+Origem: 108 Destino: 119
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.003961324691772461
+Caminho: [108, 80, 39, 59, 119]
+Peso: 6
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.3560757637023926
+Caminho: [108, 80, 39, 59, 119]
+Peso: 6
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 4.023174285888672
+Caminho: [108, 80, 39, 59, 119]
+Peso: 6
+
+
+Rodada 5
+Origem: 203 Destino: 171
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0030236244201660156
+Caminho: [203, 298, 290, 171]
+Peso: 15
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.36601901054382324
+Caminho: [203, 298, 290, 171]
+Peso: 15
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 4.06242823600769
+Caminho: [203, 178, 133, 39, 171]
+Peso: 15
+
+
+Rodada 6
+Origem: 83 Destino: 13
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0049591064453125
+Caminho: [83, 106, 13]
+Peso: 7
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.3620319366455078
+Caminho: [83, 106, 13]
+Peso: 7
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 4.129269599914551
+Caminho: [83, 106, 13]
+Peso: 7
+
+
+Rodada 7
+Origem: 286 Destino: 212
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.003989219665527344
+Caminho: [286, 77, 212]
+Peso: 9
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.3603067398071289
+Caminho: [286, 77, 212]
+Peso: 9
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 4.044424772262573
+Caminho: [286, 77, 212]
+Peso: 9
+
+
+Rodada 8
+Origem: 277 Destino: 256
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.002991914749145508
+Caminho: [277, 51, 173, 17, 153, 86, 256]
+Peso: 14
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.38404059410095215
+Caminho: [277, 51, 173, 17, 153, 86, 256]
+Peso: 14
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 4.102778196334839
+Caminho: [277, 51, 173, 17, 153, 86, 256]
+Peso: 14
+
+
+Rodada 9
+Origem: 157 Destino: 257
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0029926300048828125
+Caminho: [157, 52, 30, 257]
+Peso: 11
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.3559885025024414
+Caminho: [157, 52, 30, 257]
+Peso: 11
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 4.0570666790008545
+Caminho: [157, 52, 30, 257]
+Peso: 11
+
+
+Rodada 10
+Origem: 220 Destino: 121
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0039899349212646484
+Caminho: [220, 55, 30, 121]
+Peso: 15
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.358720064163208
+Caminho: [220, 55, 30, 121]
+Peso: 15
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 4.241039276123047
+Caminho: [220, 49, 64, 124, 153, 202, 121]
+Peso: 16
+
+
