@@ -40,7 +40,7 @@ def coordenada(indice, colunas):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Numero invalido de parametros! Argumentos esperados: main.py grafo.txt")
+        print("Numero invalido de parametros! Argumentos esperados: mainMaze.py maze.txt")
         sys.exit(1)
 
     # sys.argv[1] contem o nome do arquivo a ser lido
