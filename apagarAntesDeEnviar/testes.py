@@ -1,3 +1,2 @@
-teste = [False]*5
-
+teste = [None]*5
 print (teste)
