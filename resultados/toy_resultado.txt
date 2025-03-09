@@ -1,0 +1,200 @@
+Rodada 1
+Origem: 0 Destino: 4
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0
+Caminho: [0, 2, 1, 4]
+Peso: 7
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.0
+Caminho: [0, 2, 1, 4]
+Peso: 7
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 0.0
+Caminho: [0, 2, 1, 4]
+Peso: 7
+
+
+Rodada 2
+Origem: 3 Destino: 4
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0
+Caminho: [3, 4]
+Peso: 3
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.0
+Caminho: [3, 4]
+Peso: 3
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 0.0
+Caminho: [3, 4]
+Peso: 3
+
+
+Rodada 3
+Origem: 2 Destino: 1
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0
+Caminho: [2, 1]
+Peso: 2
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.0
+Caminho: [2, 1]
+Peso: 2
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 0.0
+Caminho: [2, 1]
+Peso: 2
+
+
+Rodada 4
+Origem: 3 Destino: 4
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0
+Caminho: [3, 4]
+Peso: 3
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.0
+Caminho: [3, 4]
+Peso: 3
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 0.0
+Caminho: [3, 4]
+Peso: 3
+
+
+Rodada 5
+Origem: 0 Destino: 4
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0
+Caminho: [0, 2, 1, 4]
+Peso: 7
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.0
+Caminho: [0, 2, 1, 4]
+Peso: 7
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 0.0
+Caminho: [0, 2, 1, 4]
+Peso: 7
+
+
+Rodada 6
+Origem: 2 Destino: 3
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0
+Caminho: [2, 1, 3]
+Peso: 3
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.0
+Caminho: [2, 1, 3]
+Peso: 3
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 0.0
+Caminho: [2, 1, 3]
+Peso: 3
+
+
+Rodada 7
+Origem: 3 Destino: 2
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0
+Caminho: []
+Peso: inf
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.0
+Caminho: []
+Peso: inf
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 0.0
+Caminho: []
+Peso: inf
+
+
+Rodada 8
+Origem: 1 Destino: 2
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0
+Caminho: []
+Peso: inf
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.0
+Caminho: []
+Peso: inf
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 0.0
+Caminho: []
+Peso: inf
+
+
+Rodada 9
+Origem: 2 Destino: 1
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0
+Caminho: [2, 1]
+Peso: 2
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.0
+Caminho: [2, 1]
+Peso: 2
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 0.0
+Caminho: [2, 1]
+Peso: 2
+
+
+Rodada 10
+Origem: 3 Destino: 4
+Processando...
+----------------------------------------
+Algoritmo de Dijkstra
+Tempo de execução: 0.0
+Caminho: [3, 4]
+Peso: 3
+----------------------------------------
+Algoritmo de Bellman-Ford
+Tempo de execução: 0.0
+Caminho: [3, 4]
+Peso: 3
+----------------------------------------
+Algoritmo de FloydWarshall
+Tempo de execução: 0.0
+Caminho: [3, 4]
+Peso: 3
+
+
